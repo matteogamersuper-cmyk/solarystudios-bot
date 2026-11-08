@@ -8,6 +8,7 @@ from discord.ext import commands
 load_dotenv()
 
 intents = discord.Intents.default()
+intents.message = true
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
