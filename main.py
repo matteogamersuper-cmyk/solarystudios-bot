@@ -9,7 +9,6 @@ load_dotenv()
 
 intents = discord.Intents.default()
 intents.messages = True
-intents.send_message = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
